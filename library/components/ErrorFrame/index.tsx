@@ -1,4 +1,4 @@
-import { Frame } from '..'
+import Frame from '../Frame'
 import vixenLogo from '../../assets/vixen_logo.svg'
 
 interface ErrorFrameProps {
