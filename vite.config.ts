@@ -18,7 +18,7 @@ export default defineConfig({
             formats: ['es'],
         },
         rollupOptions: {
-            external: ['react', 'react/jsx-runtime'],
+            external: ['react', 'react-dom', 'react/jsx-runtime'],
             input: Object.fromEntries(
                 glob
                     .sync('library/**/!(*.d).{ts,tsx}')
@@ -38,7 +38,6 @@ export default defineConfig({
                 copy({
                     targets: [
                         { src: 'package.json', dest: 'package' },
-                        { src: 'LICENSE', dest: 'package' },
                         { src: 'README.md', dest: 'package' },
                     ],
                 }),

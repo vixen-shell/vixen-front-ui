@@ -1,7 +1,7 @@
 {
     "name": "@vixen-front/ui",
     "private": false,
-    "version": "0.0.0",
+    "version": "0.0.1",
     "type": "module",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -42,13 +42,13 @@
     "description": "Vixen Shell front-end library.",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/vixen-shell/vixen-front-library.git"
+        "url": "git+https://github.com/vixen-shell/vixen-front-ui.git"
     },
     "keywords": [],
     "author": "Nohavye",
     "license": "GPL-3.0-only",
     "bugs": {
-        "url": "https://github.com/vixen-shell/vixen-front-library/issues"
+        "url": "https://github.com/vixen-shell/vixen-front-ui/issues"
     },
-    "homepage": "https://github.com/vixen-shell/vixen-front-library#readme"
+    "homepage": "https://github.com/vixen-shell/vixen-front-ui#readme"
 }
