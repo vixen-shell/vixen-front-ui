@@ -1,2 +1,1 @@
-import * as ui from './components'
-export default ui
+export * from './components'

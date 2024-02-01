@@ -1,5 +1,5 @@
-import ui from './__library'
+import { ErrorFrame } from './__library'
 
 export default function Main() {
-    return <ui.ErrorFrame message="Error !!!" />
+    return <ErrorFrame message="Error !!!" />
 }

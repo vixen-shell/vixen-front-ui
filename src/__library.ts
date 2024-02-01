@@ -1,2 +1,1 @@
-import ui from '../library'
-export default ui
+export * from '../library'
